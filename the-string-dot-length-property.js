@@ -19,12 +19,14 @@ let stringOne = "Coding Bootcamp";
 let stringTwo = "JavaScript";
 let stringThree = "";
 
-// Your task: Assign the length of each string to the corresponding variable
-let lengthOne;   // Length of stringOne
-let lengthTwo;   // Length of stringTwo
-let lengthThree; // Length of stringThree
+// Assign the length of each string to the corresponding variable
+let lengthOne = stringOne.length;     // "Coding Bootcamp" has 15 characters
+let lengthTwo = stringTwo.length;     // "JavaScript" has 10 characters
+let lengthThree = stringThree.length; // "" is an empty string, so it has 0 characters
 
-// Your code here
-
+// Print to check answers
+console.log("Length of stringOne:", lengthOne);   // 15
+console.log("Length of stringTwo:", lengthTwo);   // 10
+console.log("Length of stringThree:", lengthThree); // 0
 
 
